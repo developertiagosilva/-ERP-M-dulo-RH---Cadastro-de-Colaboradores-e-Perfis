@@ -1,0 +1,24 @@
+# Ambientes Virtuais (Python)
+venv/
+**/venv/
+env/
+**/env/
+
+# Banco de dados local e caches do Python
+*.sqlite3
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# Node / React (Frontend)
+node_modules/
+**/node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Logs e arquivos de sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
